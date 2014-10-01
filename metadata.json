@@ -1,6 +1,6 @@
 {
-	"name":"Specify",
-	"thumbnail":"specify.png",
+	"name":"Wilderness",
+	"thumbnail":"wilderness.png",
 	"templateType":"standard",
 	"pageTypes":["home"],
 	"tags": {
