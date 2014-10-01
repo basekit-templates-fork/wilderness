@@ -10,29 +10,29 @@
         "Swatch 1": {
             "color1":"#ffffff",
             "color2":"#204468",
-            "color3":"#8093cc",
-            "color4":"#204468",
+            "color3":"#4a3838",
+            "color4":"#333333",
             "color5":"#7f7f7f",
             "color6":"#ffffff",
-            "color7":"#8093cc"
+            "color7":"#4a3838"
         },
         "Swatch 2": {
             "color1":"#ffffff",
-            "color2":"#682025",
-            "color3":"#cc8e80",
-            "color4":"#682025",
+            "color2":"#852c2e",
+            "color3":"#852c2e",
+            "color4":"#852c2e",
             "color5":"#7f7f7f",
             "color6":"#ffffff",
-            "color7":"#cc8e80"
+            "color7":"#852c2e"
         },
         "Swatch 3": {
             "color1":"#ffffff",
-            "color2":"#682057",
-            "color3":"#cc80a7",
-            "color4":"#682057",
+            "color2":"#174445",
+            "color3":"#174445",
+            "color4":"#174445",
             "color5":"#7f7f7f",
             "color6":"#ffffff",
-            "color7":"#cc80a7"
+            "color7":"#174445"
         },
         "Swatch 4": {
             "color1":"#ffffff",
@@ -45,18 +45,18 @@
         },
         "Swatch 5": {
             "color1":"#ffffff",
-            "color2":"#348865",
-            "color3":"#85decd",
-            "color4":"#348865",
+            "color2":"#204517",
+            "color3":"#204517",
+            "color4":"#204517",
             "color5":"#919191",
             "color6":"#ffffff",
-            "color7":"#85decd"
+            "color7":"#204517"
         }
     },
     "fontSwatch": {
        "title": "Raleway / Open Sans",
         "font1": {
-            "font-family": "\"Raleway\", \"Lucida Grande\", Helvetica, sans-serif",
+            "font-family": "\"Abril Fatface\", \"Palatino Linotype\", serif",
             "font-size": "34px",
             "font-weight": "700",
             "line-height": "44px",
@@ -64,7 +64,7 @@
             "letter-spacing": "inherit"
         },
         "font2": {
-            "font-family": "\"Raleway\", \"Lucida Grande\", Helvetica, sans-serif",
+            "font-family": "\"Abril Fatface\", \"Palatino Linotype\", serif",
             "font-size": "28px",
             "font-weight": "600",
             "line-height": "38px",
@@ -96,7 +96,7 @@
             "letter-spacing": "inherit"
         },
         "font6": {
-            "font-family": "\"Raleway\", \"Lucida Grande\", Helvetica, sans-serif",
+            "font-family": "\"Abril Fatface\", \"Palatino Linotype\", serif",
             "font-size": "15px",
             "font-weight": "600",
             "line-height": "25px",
@@ -118,7 +118,7 @@
             "background-color-hover": "darken(@color-swatch3, 10%)"
         },
         "font8": {
-            "font-family": "\"Raleway\", \"Lucida Grande\", Helvetica, sans-serif",
+            "font-family": "\"Abril Fatface\", \"Palatino Linotype\", serif",
             "font-size": "32px",
             "font-weight": "700",
             "line-height": "42px",
@@ -134,8 +134,8 @@
             "letter-spacing": "inherit"
         },
         "font10": {
-            "font-family": "\"Raleway\", \"Lucida Grande\", Helvetica, sans-serif",
-            "font-size": "20px",
+            "font-family": "\"Abril Fatface\", \"Palatino Linotype\", serif",
+            "font-size": "30px",
             "font-weight": "700",
             "line-height": "30px",
             "color": "@color-swatch1",

@@ -5,7 +5,23 @@
 		{% include "header.twig" %}
 		<div class="header-feature">
 			<div class="container">
-				{{widget('feature', 'featurewidget', {"header": "profile", "strapline":"profile", "buttonText":"MAECENAS","defaultBgImg": asset('images/feature-bg.jpg'), 'showBtn': true})|raw}}
+				{{widget('responsiveslideshow', 'responsiveslideshow',
+				{'duration':'3',
+					'transSpeed': '1000',
+					'transType': 'fade',
+					'showButtons': true,
+					'showBullets': true,
+					'allowPause': false,
+					'allowLoop': false,
+					'showDescription': false,
+					'showTitle': false,
+					'crop': true,
+					'images': [
+						{'imageHeight':'auto', 'imageWidth':'100%', 'url':asset('/images/feature-bg.jpg'), 'title':'lorum ipsum',
+						 'description': 'lorum ipsum'},
+					]
+				})|raw
+			}}
 			</div>
 		</div>
 	</header>
