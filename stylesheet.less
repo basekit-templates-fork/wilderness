@@ -229,6 +229,10 @@ blockquote {
 	}
 }
 
+pre {
+	white-space: normal;
+}
+
 a,
 .widget.twitter a,
 .widget.twitter ul li a,
@@ -480,12 +484,17 @@ input[type="search"]::-webkit-search-decoration {
 				text-align: center;
 				padding: 0;
 
-				font-family:@font-swatch8-font-family; 
-				font-weight: @font-swatch8-font-weight; 
-				line-height:@font-swatch8-line-height; 
-				letter-spacing: @font-swatch8-letter-spacing; 
+				font-family:@font-swatch8-font-family;
+				font-weight: @font-swatch8-font-weight;
+				line-height:@font-swatch8-line-height;
+				letter-spacing: @font-swatch8-letter-spacing;
 				font-size: @font-swatch8-font-size;
 				color: @color-swatch1;
+
+				@media @tablet {
+					font-size: bkscale(@font-swatch8-font-size, 0.8);
+					line-height: bkscale(@font-swatch8-line-height, 0.8);
+				}
 
 			}
 
@@ -494,12 +503,17 @@ input[type="search"]::-webkit-search-decoration {
 				text-align: center;
 				padding: 0;
 
-				font-family:@font-swatch9-font-family; 
-				font-weight: @font-swatch9-font-weight; 
-				line-height:@font-swatch9-line-height; 
-				letter-spacing: @font-swatch9-letter-spacing; 
+				font-family:@font-swatch9-font-family;
+				font-weight: @font-swatch9-font-weight;
+				line-height:@font-swatch9-line-height;
+				letter-spacing: @font-swatch9-letter-spacing;
 				font-size: @font-swatch9-font-size;
 				color: @color-swatch1;
+
+				@media @tablet {
+					font-size: bkscale(@font-swatch9-font-size, 0.8);
+					line-height: bkscale(@font-swatch9-line-height, 0.8);
+				}
 			}
 
 		}
