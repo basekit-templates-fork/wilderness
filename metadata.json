@@ -1,6 +1,7 @@
 {
 	"name":"Wilderness",
 	"thumbnail":"wilderness.png",
+	"screenshot": "wilderness-screenshot.jpg",
 	"templateType":"standard",
 	"pageTypes":["home"],
 	"tags": {
