@@ -1,5 +1,6 @@
 {
 	"name":"Wilderness",
+    "versionTenCompatible": 1,
 	"thumbnail":"wilderness.png",
 	"screenshot": "wilderness-screenshot.jpg",
 	"templateType":"standard",
